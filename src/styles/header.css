@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10%;
+	background-color: var(--surface-container);
+	height: 64px;
+}
+
+header a, header button, .tabs li {
+	font-size: 1rem;
+	font-weight: 500;
+	font-family: "Montserrat";
+}
+
+.visual-id {
+	cursor: pointer;
+}
+
+.tabs {
+	list-style-type: none;
+}
+
+.tabs li {
+	display: inline-block;
+	text-align: center;
+	min-width: 120px;
+	height: 64px;
+}
+
+.tab a {
+	color: var(--on-surface-inverse);
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	display: inline-block;
+	line-height: 64px;
+	width: 100%;
+}
+
+header button {
+	margin: 0;
+	padding: 9px 25px;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+}
+header button:hover {
+	opacity: 0.8;
+}
+
