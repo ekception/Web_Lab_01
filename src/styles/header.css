@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+:root {
+	--header-height: 64px;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 10%;
 	background-color: var(--surface-container);
-	height: 64px;
+	height: var(--header-height);
 	z-index: 11;
 }
 
@@ -42,7 +46,7 @@ header a, header button, .tabs li {
 	display: inline-block;
 	text-align: center;
 	min-width: 120px;
-	height: 64px;
+	height: var(--header-height);
 }
 
 .tab a {
@@ -50,7 +54,7 @@ header a, header button, .tabs li {
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
 	display: inline-block;
-	line-height: 64px;
+	line-height: var(--header-height);
 	width: 100%;
 }
 
@@ -69,7 +73,7 @@ header button:hover {
 	opacity: 0;
 	position: fixed;
 	background-color: rgba(0, 0, 0, .5);
-	inset: 64px 0 0 0;
+	inset: var(--header-height) 0 0 0;
 	z-index: 10;
 }
 
@@ -87,7 +91,7 @@ and (max-device-width: 768px) {
 
 	header .menu {
 		display: none;
-		min-height: calc(100vh - 64px);
+		min-height: calc(100vh - var(--header-height));
 		opacity: .97;
 		z-index: 12;
 		text-align: center;
@@ -100,7 +104,7 @@ and (max-device-width: 768px) {
 		flex-direction: column;
 		width: min(19rem, 97%);
 		position: absolute;
-		top: 64px;
+		top: var(--header-height);
 		right: 0;
 	}
 
