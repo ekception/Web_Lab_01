@@ -12,6 +12,7 @@ html {
 
 body {
 	margin: auto;
+	font-family: var(--font-base);
 	background-color: var(--surface);
 	color: var(--on-surface);
 }
@@ -34,12 +35,22 @@ button {
 
 h1, h2, h3, h4 {
 	color: var(--primary);
+	font-family: var(--font-headings);
+}
+
+code {
+	font-family: var(--font-code);
+}
+
+.caption {
+	font-size: 0.75rem;
 }
 
 .tags {
 	list-style-type: "#";
 	list-style-position: inside;
 }
+
 .squared-corners {
 	border-radius: 5px;
 }

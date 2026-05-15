@@ -1,6 +1,18 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Reddit Mono */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
 :root {
 	--txt-normal: #121212;
 	--txt-inverse: #FCFCFC;
+	/* Typos */
+	--font-base: "Inter", sans-serif;
+	--font-headings: "Poppins", serif;
+	--font-code: "Reddit Mono", monospace;
 	/* Surface Colors */
 	--surface: #F1F1F1;  /* TODO: Change*/
 	--on-surface: var(--txt-normal);
@@ -25,10 +37,5 @@
 	/* Outline Colors */
 	--outline: #6E6E6E;
 	--outline-variant: #808080;
-}
-
-body {
-    /* Fallback */
-	font-family: sans-serif;
 }
 
