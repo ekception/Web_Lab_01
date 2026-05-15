@@ -6,7 +6,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 10%;
+	padding-inline: clamp(calc((3vw + 3vh) / 2), 10vw, calc((100vw - 675px)/2));
 	background-color: var(--surface-container);
 	height: var(--header-height);
 	z-index: 11;
