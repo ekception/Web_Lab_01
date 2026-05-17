@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Art.1 | simplesite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./styles/theme.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./styles/base.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./styles/header.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./styles/article.css" />
+</head>
+<body>
+	<header>
+		<div class="visual-id">
+			<h1>simplesite</h1>
+		</div>
+
+		<div class="btn-menu">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+
+		<nav class="menu">
+			<ul class="tabs">
+				<li class="tab"><a href="#">Articles</a></li>
+				<li class="tab"><a href="#">Projets</a></li>
+				<li class="tab"><a href="#">Contacts</a></li>
+			</ul>
+		</nav>
+
+		<a href="#" class="cta"><button id="btn-cta">Connexion</button></a>
+	</header>
+	<div id="overlay"></div>
+	<main>
+		<nav class="breadcrumbs">
+			<ol>
+				<li><a href="#">Wiki</a></li>
+				<li><span class="sep">></span></li>
+				<li><a href="#">Dev</a></li>
+			</ol>
+		</nav>
+		<h1 class="title">Extreme programming</h1>
+		<div>
+			<p class="last-updated">Dernière mise à jour : 1er Sept. 2026</p>
+			<div class="cta">
+				<button class="btn-save">
+					<svg>
+						<use href="#ico-bookmark"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<p class="intro">
+			Ce contenu, extrait de <a href="https://fr.wikipedia.org/wiki/Extreme_programming">l’article « Extreme programming » sur Wikipédia</a>, est disponible sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" class="license">CC BY-SA 4.0</a>.
+		</p>
+		<figure class="cover">
+			<img src="./images/cover.jpg" alt="Cover image for the article" class="cover" />
+			<figcaption></figcaption>
+		</figure>
+
+		<article>
+			<p>L’<strong>extreme programming</strong> (ou <strong>XP</strong>), en <a href="https://fr.wikipedia.org/wiki/Fran%C3%A7ais" title="Français">français</a> « la programmation extrême », est une <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" title="Méthode agile">méthode agile</a> de <a href="https://fr.wikipedia.org/wiki/G%C3%A9nie_logiciel" title="Génie logiciel">génie logiciel</a> privilégiant l'aspect réalisation d'une application, sans pour autant négliger l'aspect <a href="https://fr.wikipedia.org/wiki/Gestion_de_projet" title="Gestion de projet">gestion de projet</a>. Elle pousse à l'extrême des principes simples, d'où son nom.</p>
+			<p>La programmation poussée à l'extrême est adaptée aux équipes réduites ayant des besoins changeants.</p>
+			<h2>Origine</h2>
+			<p>La programmation extrême a été inventée par <a href="https://fr.wikipedia.org/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>, <a href="https://fr.wikipedia.org/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a> et <a href="https://fr.wikipedia.org/wiki/Ron_Jeffries" title="Ron Jeffries">Ron Jeffries</a> pendant leur travail sur un projet « C3 » de calcul des rémunérations chez Chrysler. Kent Beck, <a href="https://fr.wikipedia.org/wiki/Chef_de_projet" title="Chef de projet">chef de projet</a> en mars 1996, commença à affiner la méthode de développement utilisée sur le projet. Celle-ci est née officiellement en octobre <a href="https://fr.wikipedia.org/wiki/1999" title="1999">1999</a> avec la parution du livre <em>Extreme Programming Explained</em> de <a href="https://fr.wikipedia.org/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>.</p>
+
+			<h2>Pratiques extrêmes</h2>
+			<p>Dans le livre <em>Extreme Programming Explained</em>, la méthode est définie comme</p>
+			<ul>
+				<li>une tentative de réconcilier l'humain avec la productivité,</li>
+				<li>un mécanisme pour faciliter le changement social,</li>
+				<li>une voie d'amélioration,</li>
+				<li>un style de développement,</li>
+				<li>une discipline de développement d'applications informatiques.</li>
+			</ul>
+			<p>Son but principal est de réduire les coûts du changement. Dans les méthodes traditionnelles, les besoins sont définis et souvent fixés au départ du projet informatique, ce qui accroît les coûts ultérieurs de modifications. La programmation extrême vise à rendre le projet plus flexible et ouvert au changement en introduisant des valeurs de base, des principes et des pratiques.</p>
+			<p>Les principes de cette méthode existent dans l'industrie du logiciel depuis des dizaines d'années et dans les méthodes de management depuis encore plus longtemps. L'originalité de la méthode est de les pousser à l'extrême:</p>
+			<ul>
+				<li>la <a href="https://fr.wikipedia.org/wiki/Revue_de_code" title="Revue de code">revue de code</a> sera faite en permanence (par un <a href="https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me" title="Programmation en binôme">binôme</a>);</li>
+				<li>les tests seront faits systématiquement avant chaque mise en œuvre;</li>
+				<li>le code sera retravaillé tout au long du projet (<a href="https://fr.wikipedia.org/wiki/Refactoring" title="Refactoring">refactoring</a> ou remaniement du code);</li>
+				<li>la solution la plus simple sera toujours celle qui sera retenue;</li>
+				<li>des métaphores seront définies et évolueront en concomitance;</li>
+				<li>les modifications seront faites plusieurs fois par jour;</li>
+				<li>des cycles de développement très rapides faciliteront l'adaptation au changement.</li>
+			</ul>
+
+			<h2>Cycle de développement</h2>
+			<figure class="illustration">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Extreme_programming.svg/500px-Extreme_programming.svg.png" alt="" />
+				<figcaption>Le cycle de l' Extreme Programming.</figcaption>
+			</figure>
+			<p>La programmation extrême repose sur des cycles rapides de développement (des itérations de quelques semaines) dont les étapes sont les suivantes:</p>
+			<ul>
+				<li>une phase d'exploration détermine les scénarios « client » qui seront fournis pendant cette <a href="https://fr.wikipedia.org/wiki/It%C3%A9ration" title="Itération">itération</a>;</li>
+				<li>l'équipe transforme les scénarios en tâches à réaliser et en tests fonctionnels;</li>
+				<li>chaque développeur s'attribue des tâches et <a href="https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me" title="Programmation en binôme">les réalise avec un binôme</a>;</li>
+				<li>lorsque le produit satisfait aux tests fonctionnels, il est livré.</li>
+			</ul>
+			<p>Le cycle se répète tant que le client peut fournir des scénarios à livrer. Généralement le cycle qui précède la première livraison se caractérise par sa durée et le volume important de fonctionnalités embarquées. Après la première mise en production, les itérations peuvent devenir plus courtes (une semaine par exemple).</p>
+
+			<h2>Programmation comme discipline collective</h2>
+			<p>Tout en mettant l'accent sur les bonnes pratiques, la programmation extrême préconise un déroulement par itérations courtes et gérées collectivement, avec une implication constante du client. Il en découle une redéfinition de la relation entre client et fournisseur.</p>
+
+			<h3>Valeurs</h3>
+			<p>L' extreme programming repose sur cinq valeurs fondamentales.</p>
+
+			<h4>Communication</h4>
+			<p>C'est le moyen fondamental pour éviter les problèmes. Les pratiques que préconise l'XP imposent une communication intense. Les tests, la <a href="https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me" title="Programmation en binôme">programmation en binôme</a> et le jeu du planning obligent les développeurs, les décideurs et les clients à communiquer. Si un manque apparaît malgré tout, un <em>coach</em> se charge de l'identifier et de remettre ces personnes en contact.</p>
+
+			<h4>Simplicité</h4>
+			<p>La façon la plus simple d'arriver au résultat est la meilleure. Anticiper les extensions futures est une perte de temps. Une application simple sera plus facile à faire évoluer.</p>
+
+			<h4>Feedback</h4>
+			<p>Le retour d'information est primordial pour le programmeur et le client. Les tests unitaires indiquent si le code fonctionne. Les tests fonctionnels donnent l'avancement du projet. Les livraisons fréquentes permettent de tester les fonctionnalités rapidement.</p>
+
+			<h4>Courage</h4>
+			<p>Certains changements demandent beaucoup de courage. Il faut parfois changer l'architecture d'un projet, jeter du code pour en produire un meilleur ou essayer une nouvelle technique. Le courage permet de sortir d'une situation inadaptée. C'est difficile, mais la simplicité, le <em>feedback</em> et la communication rendent ces tâches accessibles.</p>
+
+			<h4>Respect</h4>
+			<p>Cette valeur fut ajoutée dans la deuxième édition de <em>Extreme Programming Explained</em> de K. Beck. Cette valeur inclut le respect pour les autres, ainsi que le respect de soi. Les programmeurs ne devraient jamais valider les modifications qui cassent la compilation, qui font échouer les tests unitaires existants ou qui retardent le travail de leurs pairs. Les membres respectent leur propre travail en cherchant toujours la qualité et la meilleure conception pour la solution et cela grâce au refactoring.</p>
+
+			<h3>Pratiques</h3>
+			<p>Ces cinq valeurs se déclinent en treize pratiques qui se renforcent mutuellement:</p>
+
+			<h4>Client sur site</h4>
+			<p>Un représentant du client doit, si possible, être présent pendant toute la durée du projet. Il doit avoir les connaissances de l'utilisateur final et avoir une vision globale du résultat à obtenir. Il réalise son travail habituel tout en étant disponible pour répondre aux questions de l'équipe.</p>
+
+			<h4>Jeu du planning ou planning poker</h4>
+			<p>Le client crée des scénarios pour les fonctionnalités qu'il souhaite obtenir. L'équipe évalue le temps nécessaire pour les mettre en œuvre. Le client sélectionne ensuite les scénarios en fonction des priorités et du temps disponible.</p>
+
+			<h4>Intégration continue</h4>
+			<p>Lorsqu'une tâche est terminée, les modifications sont immédiatement intégrées dans le produit complet. On évite ainsi la surcharge de travail liée à l'intégration de tous les éléments avant la livraison. Les tests facilitent grandement cette intégration: quand tous les tests passent, l'intégration est terminée.</p>
+
+			<h4>Petites livraisons</h4>
+			<p>Les livraisons doivent être les plus fréquentes possible. L'intégration continue et les tests réduisent considérablement le coût de livraison.</p>
+
+			<h4>Rythme soutenable</h4>
+			<p>L'équipe ne fait pas d'heures supplémentaires. Si le cas se présente, il faut revoir le planning. Un développeur fatigué travaille mal.</p>
+
+			<h4>Tests de recette (ou tests fonctionnels)</h4>
+			<p>À partir des scénarios définis par le client, l'équipe crée des procédures de test qui permettent de vérifier l'avancement du développement. Lorsque tous les tests fonctionnels passent, l'itération est terminée. Ces tests sont souvent automatisés mais ce n'est pas toujours possible.</p>
+			<p>En effet, seuls les tests de non-régression peuvent être potentiellement automatisés du fait de leur récurrence.</p>
+			<p>La recette fonctionnelle d'une application est de plus en plus souvent confiée à des experts du test indépendants des développeurs.</p>
+
+			<h4>Tests unitaires</h4>
+			<p>Avant de mettre en œuvre une fonctionnalité, le développeur écrit un test qui vérifiera que son programme se comporte comme prévu. Ce test sera conservé jusqu'à la fin du projet, tant que la fonctionnalité est requise. À chaque modification du code, on lance tous les tests écrits par tous les développeurs, et on sait immédiatement si quelque chose ne fonctionne plus correctement.</p>
+
+			<h4>Conception simple</h4>
+			<p>L'objectif d'une itération est de mettre en œuvre les scénarios sélectionnés par le client et uniquement cela. Envisager les prochaines évolutions ferait perdre du temps sans avoir la garantie d'un gain ultérieur. Les tests permettront de changer l'architecture plus tard si nécessaire. Plus l'application est simple, plus il sera facile de la faire évoluer lors des prochaines itérations.</p>
+
+			<h4>Utilisation de métaphores</h4>
+			<p>On utilise des métaphores et des analogies pour décrire le système et son fonctionnement. Le fonctionnel et le technique se comprennent beaucoup mieux lorsqu'ils sont d'accord sur les termes qu'ils emploient.</p>
+
+			<h4>Remaniement du code</h4>
+			<p>Amélioration régulière de la qualité du code sans en modifier le comportement. On retravaille le code pour repartir sur de meilleures bases tout en gardant les mêmes fonctionnalités. Les phases de <em>refactoring</em> n'apportent rien au client mais <strong>permettent</strong> aux développeurs d'avancer dans de meilleures conditions et donc plus vite.</p>
+
+			<h4>Appropriation collective du code</h4>
+			<p>L'équipe est collectivement responsable de l'application. Chaque développeur peut faire des modifications dans toutes les portions du code, même celles qu'il n'a pas écrites. Les tests diront si quelque chose ne fonctionne plus.</p>
+
+			<h4>Convention de nommage</h4>
+			<p>Puisque tous les développeurs interviennent sur tout le code, il est indispensable d'établir et de respecter des normes de nommage pour les variables, méthodes, objets, classes, fichiers, etc.</p>
+
+			<h4>Programmation en binôme</h4>
+			<p>La programmation se fait par deux. Le premier appelé <em>driver</em> (ou <em>pilote</em>) tient le clavier. C'est lui qui va travailler sur la portion de code à écrire. Le second appelé <em>partner</em> (ou <em>copilote</em>) est là pour l'aider en suggérant de nouvelles possibilités ou en décelant d'éventuels problèmes. Les développeurs changent fréquemment de partenaire et de rôle, ce qui permet d'améliorer la connaissance collective de l'application et d'améliorer la communication au sein de l'équipe.</p>
+
+			<h3>Autres principes</h3>
+			<ul>
+				<li>Ne pas ajouter de fonctionnalités plus tôt que prévu.</li>
+				<li>N'optimiser qu'à la fin.</li>
+			</ul>
+			<p>Cette méthode s'appuie sur:</p>
+			<ul>
+				<li>une forte réactivité au changement des besoins du client;</li>
+				<li>un travail d'équipe;</li>
+				<li>la qualité du code;</li>
+				<li>la qualité des tests effectués au plus tôt.</li>
+			</ul>
+
+			<h2>Environnements défavorables</h2>
+			<p>En lieu et place d'inconvénient de la méthode, on parlera plus aisément d'environnements défavorables dans lesquels la méthode XP n'est pas applicable.</p>
+			<p>Dans ce cas, seule une partie des pratiques peut s'appliquer. Les principaux contextes défavorables sont:</p>
+			<ul>
+				<li>un blocage culturel: quand le client ou les développeurs ont l'habitude de fonctionner autrement. L'ingénieur à qui l'on attribue des mini-tâches quotidiennes et qui doit les réaliser avec un binôme peut avoir le sentiment que sa fonction est déqualifiée. Son principal rôle n'est plus d'être force de proposition, mais bel et bien de produire et d’accroître sa productivité (<a href="https://fr.wikipedia.org/wiki/Taylorisme" title="Taylorisme">Taylorisme</a>, <a href="https://fr.wikipedia.org/wiki/Fordisme" title="Fordisme">Fordisme</a>). Une telle vision peut en effet provoquer un blocage culturel qui peut conduire à une <a href="https://fr.wikipedia.org/wiki/Turn-over" title="Turn-over">rotation</a> importante;</li>
+				<li>une équipe de vingt développeurs ou plus car la communication devient difficile: il est fréquent de voir au fil du temps des binômes travailler toujours ensemble, toujours sur les mêmes sujets, et former ainsi des sous-équipes spécialisées, ce que ne veut pas XP. Par ailleurs, les évolutions possibles dans l'entreprise sont très limitées dans la mesure où tous les membres de l'équipe jouent tous les mêmes rôles;</li>
+				<li>un coût de changement exponentiel car « XP nécessite du code propre et simple »;</li>
+				<li>un <em>feedback</em> long ou difficile à obtenir: le <a href="https://fr.wikipedia.org/wiki/Retour_sur_investissement" title="Retour sur investissement">retour sur investissement</a> est visible sur le moyen/long terme;</li>
+				<li>un aménagement qui empêche la communication ou la programmation en binôme (il est nécessaire d'avoir une infrastructure <em>open-space</em>);</li>
+				<li>respect d'une discipline collective et travail en binôme au quotidien: cette méthode ne peut pas être appliquée avec n'importe qui, car elle dégage très peu de temps à l'autonomie et au travail individuel, dans la mesure où systématiquement le travail se fait à deux sur un même poste de travail. Les développeurs auront de la difficulté à établir un projet professionnel dans leur entreprise.</li>
+			</ul>
+
+			<h2>Voir aussi</h2>
+			<ul>
+				<li><a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" title="Méthode agile">Méthode agile</a></li>
+				<li><a href="https://fr.wikipedia.org/wiki/Cycle_de_d%C3%A9veloppement_\(logiciel\)" title="Cycle de développement (logiciel)">Cycle de développement (logiciel)</a></li>
+				<li><a href="https://fr.wikipedia.org/wiki/Scrum_\(d%C3%A9veloppement\)" title="Scrum (développement)">Scrum</a></li>
+				<li><a href="https://fr.wikipedia.org/wiki/Test_Driven_Development" title="Test Driven Development">Test Driven Development</a></li>
+			</ul>
+		</article>
+	</main>
+	<footer>
+		<p class="copyrights" style="text-align: center; padding: 20px 0;">
+			&copy; 2026 Simpleblog. Tous droits réservés.
+		</p>
+	</footer>
+
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+		<symbol id="ico-bookmark"viewBox="240 -720 720 720" >
+			<path fill="currentColor" d="M 320 0 v -640 q 0 -33 23.5 -56.5 t 56.5 -23.5 h 400 q 33 0 56.5 23.5 t 23.5 56.5 v 640 l -280 -120 l -280 120 Z"/>
+		</symbol>
+	</svg>
+
+	<script defer src="scripts/menu.js"></script>
+
+</body>
+</html>
